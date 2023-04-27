@@ -11,6 +11,9 @@ public class Cat extends Mammal{
         return new Cat();
     }
 
+
+
+
     @Override
     public Animal occur() {
         return new Cat();
@@ -26,3 +29,4 @@ public class Cat extends Mammal{
         return 24;
     }
 }
+

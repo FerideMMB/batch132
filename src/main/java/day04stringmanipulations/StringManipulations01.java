@@ -9,16 +9,16 @@ public class StringManipulations01 {
         System.out.println("Enter your first and the last name...");
         String fullName = input.nextLine().toUpperCase();
         System.out.println(fullName);
-
         //toUpperCase() method converts all characters to upper cases
+
         //Example 2 : Get the full name of the user , make all characters in upper cases and remove spaces
         // from the beginning and from the end
         System.out.println("Enter your first and the last name...");
         String name = input.nextLine().toUpperCase().trim();  //Method Chain
-
         //trim()method removes the "space" characters from the beginning and from the end.
         //trim()method does not touch spaces in the middle
         System.out.println(name);
+
         //Example 3: Get a String from user , then count the number of characters in the String
         System.out.println("Enter a String...");
         String s = input.nextLine();
